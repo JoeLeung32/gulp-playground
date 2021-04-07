@@ -1,0 +1,33 @@
+{
+  "name": "gulp-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/polyfill": "7.12.1",
+    "@babel/preset-env": "7.13.12",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-jslint-simple": "1.0.2",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-scss-lint": "1.0.0",
+    "gulp-strip-debug": "4.0.0",
+    "gulp-uglify-es": "2.0.0",
+    "jshint-stylish": "2.2.1",
+    "node-sass": "5.0.0",
+    "prettier": "2.2.1"
+  },
+  "scripts": {
+    "buildCss": "NODE_ENV='production' gulp buildCss",
+    "buildJs": "NODE_ENV='production' gulp buildJs",
+    "devCss": "NODE_ENV='development' gulp buildCss",
+    "devJs": "NODE_ENV='development' gulp buildJs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "yarn-update-dependencies": "yarn upgrade-interactive --latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
